@@ -17,3 +17,9 @@ spring:
   h2:
     console:
       enabled: true
+
+security:
+  jwt:
+    key: dGVuaG8gcXVlIHBhc3NlYXIgY29tIGVsZXM=
+    expiracao: '30'
+
